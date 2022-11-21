@@ -106,11 +106,12 @@ void solve()
         cout<<q2.front()<<endl;
         cout<<"size of the queue after doing pop operation  : ";
         cout<<q2.size()<<endl;
-        q2.pop();
-        cout<<"again after removing the element the front element is : ";
-        cout<<q2.front()<<endl;
-        cout<<"after doing empty operation the size of the queue is : ";
-        cout<<q2.size()<<endl;
+       // q2.pop();
+       // cout<<"again after removing the element the front element is : ";
+        //cout<<q2.front()<<endl;
+        cout<<"check the queue is empty or not( true means = empty) & (false means = not empty)  : ";
+
+           cout<<q2.empty()<<endl;
     }
 
 
@@ -166,6 +167,7 @@ empty()	returns true if the queue is empty
 
 
 output :
+
 ......In queue you cannot remove element from back side ......
 
 Enter number of elements :
@@ -209,20 +211,36 @@ front element is : 1
 the back element is : 6
 after removing the element the front element is : 2
 size of the queue after doing pop operation  : 5
-again after removing the element the front element is : 3
-after doing empty operation the size of the queue is : 4
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 0
+size of the queue is : 5
+front element is : 2
+the back element is : 6
+after removing the element the front element is : 3
+size of the queue after doing pop operation  : 4
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 0
 size of the queue is : 4
 front element is : 3
 the back element is : 6
 after removing the element the front element is : 4
 size of the queue after doing pop operation  : 3
-again after removing the element the front element is : 5
-after doing empty operation the size of the queue is : 2
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 0
+size of the queue is : 3
+front element is : 4
+the back element is : 6
+after removing the element the front element is : 5
+size of the queue after doing pop operation  : 2
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 0
 size of the queue is : 2
 front element is : 5
 the back element is : 6
 after removing the element the front element is : 6
 size of the queue after doing pop operation  : 1
-again after removing the element the front element is : 0
-after doing empty operation the size of the queue is : 0
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 0
+size of the queue is : 1
+front element is : 6
+the back element is : 6
+after removing the element the front element is : 0
+size of the queue after doing pop operation  : 0
+check the queue is empty or not( true means = empty) & (false means = not empty)  : 1
+
 */
