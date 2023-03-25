@@ -1,4 +1,4 @@
-//D:\all codes\multicontainer(2d_vector)unidirectional_graph_.cpp
+//D:\all codes\multicontainer(2d_vector)bidirectional_graph_.cpp
 //use of 2d vector , can be used to solve graph related problem...
 #include<bits/stdc++.h>
 
