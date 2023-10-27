@@ -1,4 +1,70 @@
-//string_to_number and vive-versa.cpp
+//string to number converter manually.cpp
+#include<bits/stdc++.h>
+using namespace std;
+typedef long long ll;
+//int j=0;
+
+ll atoi_manually(string s)
+{
+    ll res=0,size1=s.size();
+    for(int i=0;i<size1;i++)
+    {
+        res=res*10+s[i]-48;
+        //cout<<res<<" ";
+    }
+   // cout<<res<<endl;
+   // reverse_number(res,size1);
+    return res;
+}
+void solve()
+{
+
+    ll i,j,n;
+    string s;
+    cin>>s;
+    ll result=atoi_manually(s);
+    cout<<"After converting to number : "<<endl;
+    cout<<result<<endl;
+
+}
+void test()
+{
+    long long t;
+    cin>>t;
+
+    while(t--)
+    {
+        //j++;
+         solve();
+        //cin.ignore();
+
+    }
+
+}
+
+int main()
+{
+
+
+    //int n = sizeof(arr) / sizeof(arr[0]);
+    test();
+    //solve();
+}
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+//string_to_number and vive-versa using stoi function (but this function can give run time error in some cases ..so try to use manuallly )
 #include<bits/stdc++.h>
 
 // reverse(s.begin(), s.end());
